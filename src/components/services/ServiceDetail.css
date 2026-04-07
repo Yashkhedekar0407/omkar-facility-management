@@ -1,0 +1,137 @@
+/*---------------------------------personal trainer-------------------------------*/
+
+/* GENERAL */
+.pt-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HERO */
+.pt-hero {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pt-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.pt-overlay h1 {
+  font-size: 3rem;
+}
+
+.pt-overlay p {
+  margin-top: 10px;
+}
+
+/* GALLERY */
+.pt-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.pt-gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.4s;
+}
+
+.pt-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* CONTENT */
+.pt-content h2 {
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.pt-content p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* FEATURES */
+.pt-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.feature {
+  background: #f4f9ff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature span {
+  font-size: 30px;
+}
+
+.feature h4 {
+  margin-top: 10px;
+  color: #0d6efd;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.pt-cta {
+  background: linear-gradient(135deg, #0d6efd, #7a4df7);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: white;
+  color: #0d6efd;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .pt-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pt-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .pt-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .pt-features {
+    grid-template-columns: 1fr;
+  }
+
+  .pt-overlay h1 {
+    font-size: 2rem;
+  }
+}
