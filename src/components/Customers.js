@@ -4,7 +4,7 @@ const societies = [
   { name: "The Reserve", location: "Worli" },
   { name: "Rajat Dhavalgiri", location: "Vile Parle" },
   { name: "Shivam Centrium", location: "Andheri" },
-  { name: "Green Wooda", location: "Andheri" },
+  { name: "Green Woods", location: "Andheri" },
   { name: "Runwal Elina", location: "Andheri" },
   { name: "Romell Aether", location: "Goregaon" },
   { name: "Lalani Grandeur", location: "Malad" },
@@ -14,6 +14,7 @@ const societies = [
   { name: "Samarpan Exotica", location: "Borivali" },
   { name: "Parinee Adney", location: "" },
   { name: "Sethia Sea View", location: "Goregaon" },
+  {name:"Crescent Grande", location:"Andheri"}
 ];
 
 function Customers() {

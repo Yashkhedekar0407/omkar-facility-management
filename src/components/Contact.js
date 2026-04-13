@@ -48,7 +48,7 @@ function Contact() {
     const encodedText = encodeURIComponent(text);
 
     /* 🔥 WHATSAPP URL */
-    const whatsappURL = `https://api.whatsapp.com/send?phone=919324121905&text=${encodedText}`;
+    const whatsappURL = `https://api.whatsapp.com/send?phone=917021906580&text=${encodedText}`;
 
     /* OPEN WHATSAPP */
     window.open(whatsappURL, "_blank");

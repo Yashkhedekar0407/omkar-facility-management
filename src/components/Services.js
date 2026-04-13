@@ -11,25 +11,25 @@ function Services() {
   const services = [
     {
       title: "Personal Trainer",
-      desc: "Certified trainers available daily for personalized fitness guidance.",
+      desc: "Get expert guidance from certified personal trainers offering customized fitness training programs tailored to your goals. Whether you want weight loss, muscle gain, or strength training, our gym trainers help you achieve results safely and effectively.",
       img: GI,
       path: "/personal-trainer",
     },
     {
       title: "Gym Instructor",
-      desc: "Professional instructors for smooth gym operations.",
+      desc: "Certified gym instructors for society clubhouses in Mumbai delivering personalized fitness training, structured workout programs, and expert guidance. Our professionals ensure strict gym discipline, proper equipment management, and accurate daily member records, creating a safe and well-organized fitness environment.",
       img: PT,
       path: "/gym-instructor",
     },
     {
       title: "Gym Equipment & AMC",
-      desc: "Branded equipment with complete maintenance support.",
+      desc: "We offer premium branded equipment with full maintenance support, including installation, routine servicing, timely repairs, and expert guidance to ensure smooth operation, durability, and maximum performance at all times.",
       img: GE,
       path: "/equipment",
     },
     {
       title: "Game Room Attendant",
-      desc: "Dedicated staff to manage clubhouse game rooms.",
+      desc: "Trained staff oversee clubhouse game rooms, delivering seamless operations, routine equipment upkeep, structured activity management, and responsive member assistance to maintain a professional, organized, and engaging recreational environment.",
       img: GA,
       path: "/game-room",
     },

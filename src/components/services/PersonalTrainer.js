@@ -34,11 +34,13 @@ function PersonalTrainer() {
 
       {/* CONTENT */}
       <section className="pt-content container">
-        <h2>About Our Personal Training</h2>
+        <h2>About Our Personal Training Service in Mumbai/Pune</h2>
         <p>
-          We provide certified personal trainers on a daily basis for clubhouses
-          and residential societies. Our trainers focus on personalized fitness,
-          proper techniques, and consistent results.
+         Achieve your fitness goals with our professional personal trainer services in Mumbai/Pune. Our certified gym trainers provide customized fitness training programs tailored to your body type, lifestyle, and goals. Whether you are looking for weight loss, muscle gain, strength training, or overall fitness improvement, we ensure safe, effective, and result-driven workouts.
+
+Our personal training sessions include one-on-one coaching, personalized workout plans, and continuous motivation to help you stay consistent and achieve faster results. With expert guidance and proper techniques, we help reduce the risk of injury while maximizing your performance.
+
+We offer flexible training options at your home, gym, or preferred location, making it convenient for you to stay fit without disrupting your schedule. Choose our experienced personal trainers in Mumbai and take the first step towards a healthier and stronger lifestyle.
         </p>
 
         <div className="pt-features">

@@ -34,20 +34,42 @@ function GymInstructor() {
       </section>
 
       {/* CONTENT */}
-      <section className="pt-container pt-content">
-        <h2>About Our Gym Instructor Service</h2>
+      <section className="pt-content container">
+        <h2>About Our Gym Instructor Service in Mumbai/Pune</h2>
         <p>
-          We provide experienced gym instructors on a monthly basis to ensure
-          smooth gym operations in clubhouses. Our instructors assist members,
-          maintain discipline, and ensure proper use of equipment.
+          Our professional gym instructors in Mumbai/Pune provide expert fitness training, personalized workout plans, and proper exercise guidance to help you achieve your health and fitness goals. Whether you aim for weight loss, muscle building, or strength improvement, our certified instructors ensure safe and effective training techniques tailored to your fitness level.
+
+With a focus on discipline, consistency, and correct posture, our gym instructors help reduce the risk of injury while maximizing results. We also assist in maintaining gym equipment, ensuring a clean and organized workout environment for a better fitness experience.
+
+Choose our experienced gym instructors in Mumbai/Pune for reliable, result-driven fitness training and take a step towards a healthier, stronger, and more active lifestyle.
         </p>
 
-        <div className="pt-features">
-          <div className="feature">🏋️ Equipment Guidance</div>
-          <div className="feature">📋 Daily Monitoring</div>
-          <div className="feature">👨‍🏫 Member Assistance</div>
-          <div className="feature">✅ Professional Staff</div>
+       <div className="pt-features">
+          <div className="feature">
+            <span>🏋️</span> 
+            <h4>Equipment Guidance</h4> 
+            <p>Proper guidance on safe and effective use of gym equipment for optimal workout results.</p>
+          </div>
+
+          <div className="feature">
+            <span>📋</span> 
+            <h4>Daily Monitoring</h4>
+            <p>Regular tracking of member activities and progress to ensure consistency and improved performance.</p> 
+          </div>
+
+          <div className="feature">
+            <span>👨‍🏫</span> 
+            <h4>Member Assistance</h4> 
+            <p>Dedicated support and guidance to help members follow correct workout routines and achieve fitness goals.</p>
+          </div>
+
+           <div className="feature">
+            <span>✅</span> 
+            <h4>Professional Staff</h4>
+            <p>Skilled and certified gym instructors delivering reliable and high-quality fitness training services</p> 
+          </div>
         </div>
+        
       </section>
 
       {/* CTA */}

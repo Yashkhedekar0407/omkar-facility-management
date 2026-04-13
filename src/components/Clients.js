@@ -10,9 +10,8 @@ import client6 from "../assests/clients/client6.jpg";
 import client7 from "../assests/clients/client7.png";
 import client8 from "../assests/clients/client8.jpg";
 import client9 from "../assests/clients/client9.png";
-import client10 from "../assests/clients/client10.jpg";
 
-const clients = [client1, client2, client3, client4, client5,client6,client7,client8,client9,client10];
+const clients = [client1, client2, client3, client4, client5,client6,client7,client8,client9];
 
 function Clients() {
   return (

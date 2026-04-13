@@ -34,7 +34,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
         >
-          Delivering reliable and high-quality facility services tailored for modern clubhouses and residential communities.
+          Delivering reliable and high-quality facility services tailored for modern clubhouses and residential communities in Mumbai/Pune.
         </motion.p>
 
         {/* 🔥 TYPING QUOTES */}
