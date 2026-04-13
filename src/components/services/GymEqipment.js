@@ -28,9 +28,9 @@ function GymEquipment() {
 
       {/* GALLERY */}
       <section className="pt-gallery pt-container">
-        <img src={GE1}/>
-        <img src={GE2}/>
-        <img src={GE3}/>
+        <img src={GE1} alt="img"/>
+        <img src={GE2} alt="img"/>
+        <img src={GE3} alt="img"/>
       </section>
 
       {/* CONTENT */}

@@ -27,9 +27,9 @@ function PersonalTrainer() {
 
       {/* GALLERY */}
       <section className="pt-gallery pt-container">
-               <img src={pt1}/>
-               <img src={pt2}/>
-               <img src={pt3}/>
+               <img src={pt1} alt="img1"/>
+               <img src={pt2} alt="img2"/>
+               <img src={pt3} alt="img3"/>
       </section>
 
       {/* CONTENT */}

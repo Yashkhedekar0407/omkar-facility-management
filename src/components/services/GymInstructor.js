@@ -28,9 +28,9 @@ function GymInstructor() {
 
       {/* GALLERY */}
       <section className="pt-gallery pt-container">
-        <img src={GI1}/>
-        <img src={GI2}/>
-        <img src={GI3}/>
+        <img src={GI1} alt="img"/>
+        <img src={GI2} alt="img1"/>
+        <img src={GI3} alt="img1"/>
       </section>
 
       {/* CONTENT */}
