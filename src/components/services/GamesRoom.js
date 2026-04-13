@@ -28,9 +28,9 @@ function GamesRoom() {
 
       {/* GALLERY */}
       <section className="pt-gallery pt-container">
-        <img src={GA1}/>
-        <img src={GA2}/>
-        <img src={GA3}/>
+        <img src={GA1} alt="img1"/>
+        <img src={GA2} alt="img2"/>
+        <img src={GA3} alt="img3"/>
       </section>
 
       {/* CONTENT */}
