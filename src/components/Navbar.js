@@ -7,6 +7,19 @@ function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
 
+  const goHomeTop = () => {
+  setNavOpen(false);
+  setDropdownOpen(false);
+
+  setTimeout(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, 50);
+};
+
+
   // Detect screen size
   useEffect(() => {
     const handleResize = () => {
@@ -22,9 +35,9 @@ function Navbar() {
       <div className="container">
 
         {/* 🔥 LOGO */}
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/" onClick={goHomeTop}>
           <img src={logo} alt="logo" className="logo-img" />
-        </a>
+        </Link>
 
         {/* 🔥 TOGGLE BUTTON */}
         <button
@@ -39,7 +52,7 @@ function Navbar() {
           <ul className="navbar-nav ms-auto">
 
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              <Link className="nav-link" to="/" onClick={goHomeTop}>Home</Link>
             </li>
 
             {/* 🔥 SERVICES DROPDOWN */}
@@ -48,8 +61,8 @@ function Navbar() {
               onMouseEnter={() => !isMobile && setDropdownOpen(true)}
               onMouseLeave={() => !isMobile && setDropdownOpen(false)}
             >
-              <a
-                href="#services"
+              <Link
+                to="/#services"
                 className="nav-link dropdown-toggle"
                 onClick={(e) => {
                   if (isMobile) {
@@ -59,32 +72,41 @@ function Navbar() {
                 }}
               >
                 Services
-              </a>
+              </Link>
 
               <ul className={`dropdown-menu premium-dropdown ${dropdownOpen ? "show" : ""}`}>
-                <li><Link className="dropdown-item" to="/personal-trainer" onClick={() => setDropdownOpen(false)}>Personal Training</Link></li>
-                <li><Link className="dropdown-item" to="/gym-instructor" onClick={() => setDropdownOpen(false)}>Gym Intructor</Link></li>
-                <li><Link className="dropdown-item" to="/equipment" onClick={() => setDropdownOpen(false)}>Gym Equipment sales & maintainence</Link></li>
-                <li><Link className="dropdown-item" to="/game-room" onClick={() => setDropdownOpen(false)}>Games Attendend</Link></li>
+                <li><Link className="dropdown-item" to="/personal-trainer"
+                 onClick={() =>{ setDropdownOpen(false);
+                  setNavOpen(false);
+                 }}>Personal Training</Link></li>
+                <li><Link className="dropdown-item" to="/gym-instructor" onClick={() =>{ setDropdownOpen(false);
+                  setNavOpen(false);
+                 }}>Gym Intructor</Link></li>
+                <li><Link className="dropdown-item" to="/equipment" onClick={() =>{ setDropdownOpen(false);
+                  setNavOpen(false);
+                 }}>Gym Equipment sales & maintainence</Link></li>
+                <li><Link className="dropdown-item" to="/game-room" onClick={() =>{ setDropdownOpen(false);
+                  setNavOpen(false);
+                 }}>Games Attendend</Link></li>
 
               </ul>
             </li>
 
-             <li className="nav-item">
-              <a className="nav-link" href="#whyus">Why Us</a>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/#whyus">Why Us</Link>
+          </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="#customers">Clients</a>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/#customers">Clients</Link>
+          </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/#about">About</Link>
+          </li>
 
-            <li className="nav-item">
-              <a className="nav-link " href="#contact">Contact</a>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/#contact">Contact</Link>
+          </li>
 
           </ul>
         </div>

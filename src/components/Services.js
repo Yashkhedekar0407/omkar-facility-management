@@ -22,13 +22,13 @@ function Services() {
       path: "/gym-instructor",
     },
     {
-      title: "Gym Equipment & AMC",
+      title: "Branded Equipments Sales and Service",
       desc: "We offer premium branded equipment with full maintenance support, including installation, routine servicing, timely repairs, and expert guidance to ensure smooth operation, durability, and maximum performance at all times.",
       img: GE,
       path: "/equipment",
     },
     {
-      title: "Game Room Attendant",
+      title: "Games Room Attendant",
       desc: "Trained staff oversee clubhouse game rooms, delivering seamless operations, routine equipment upkeep, structured activity management, and responsive member assistance to maintain a professional, organized, and engaging recreational environment.",
       img: GA,
       path: "/game-room",

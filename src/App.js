@@ -20,6 +20,7 @@ import GymEquipment from './components/services/GymEqipment';
 import GamesRoom from './components/services/GamesRoom';
 
 import ScrollToTop from "./components/ScrollToTop";
+import ScrollToSection from './components/ScrollToSection';
 
 
 /* ✅ HOME PAGE COMPONENT (your current structure) */
@@ -75,6 +76,7 @@ function App() {
   return (
     <>
       <ScrollToTop/>
+      <ScrollToSection/>
     
       <Navbar /> {/* Navbar always visible */}
 

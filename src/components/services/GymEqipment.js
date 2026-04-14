@@ -21,7 +21,7 @@ function GymEquipment() {
         }}
       >
         <div className="pt-overlay">
-          <h1>Gym Equipment & AMC</h1>
+          <h1>Branded Equipments Sales and Service</h1>
           <p>Branded equipment with complete maintenance support.</p>
         </div>
       </section>

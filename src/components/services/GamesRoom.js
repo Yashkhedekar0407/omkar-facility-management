@@ -21,7 +21,7 @@ function GamesRoom() {
         }}
       >
         <div className="pt-overlay">
-          <h1>Game Room Attendant</h1>
+          <h1>Games Room Attendant</h1>
           <p>Professional staff to manage and maintain game rooms.</p>
         </div>
       </section>
@@ -35,9 +35,9 @@ function GamesRoom() {
 
       {/* CONTENT */}
       <section className="pt-content container">
-        <h2>About Game Room Service</h2>
+        <h2>About Games Room Service</h2>
         <p>
-          Our trained staff provide comprehensive supervision and management of clubhouse game rooms, ensuring smooth and efficient daily operations. From overseeing gaming activities to maintaining discipline within the space, our team ensures a safe, organized, and enjoyable environment for all members. We conduct routine equipment inspections and upkeep to ensure all gaming facilities remain in excellent working condition, reducing downtime and enhancing user experience.
+          Our trained staff provide comprehensive supervision and management of clubhouse games room, ensuring smooth and efficient daily operations. From overseeing gaming activities to maintaining discipline within the space, our team ensures a safe, organized, and enjoyable environment for all members. We conduct routine equipment inspections and upkeep to ensure all gaming facilities remain in excellent working condition, reducing downtime and enhancing user experience.
 
 In addition to equipment maintenance, our staff manage structured activity schedules, ensuring fair usage and proper coordination of recreational facilities. We also offer prompt and responsive member assistance, addressing queries, guiding users, and maintaining a welcoming atmosphere. With a strong focus on professionalism, cleanliness, and operational efficiency, our services are designed to enhance the overall quality and engagement of clubhouse recreational areas, creating a well-managed and enjoyable experience for residents.
         </p>
