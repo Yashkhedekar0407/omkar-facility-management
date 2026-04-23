@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import HeroNew from "./components/HeroNew";
 import Services from "./components/Services";
 import About from "./components/About";
 import Feedback from './components/Feedback';
@@ -22,14 +23,16 @@ import GamesRoom from './components/services/GamesRoom';
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollToSection from './components/ScrollToSection';
 
+import Popup from './components/Popup';
+
 
 /* ✅ HOME PAGE COMPONENT (your current structure) */
 function HomePage() {
   return (
     <>
-     
+     <Popup/>
       <section id="hero">
-        <Hero />
+        <HeroNew />
       </section>
 
       <section id="services">
@@ -75,6 +78,7 @@ function HomePage() {
 function App() {
   return (
     <>
+    
       <ScrollToTop/>
       <ScrollToSection/>
     

@@ -1,0 +1,371 @@
+  /*
+  Wrapper
+
+.hero-wrapper {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+  Video   
+.hero-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  Overlay   
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+  Content   
+.hero-content {
+  position: relative;
+  z-index: 2;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;     vertical center   
+  align-items: center;         horizontal center   
+
+  text-align: center;
+  padding: 0 20px;
+}
+
+  Title   
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero-content h1 span {
+  color: gold;
+}
+
+  Anniversary   
+.hero-anniversary {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.hero-anniversary span {
+  color: gold;
+  text-shadow: 0 0 10px gold;
+}
+
+  Subtitle   
+.hero-subtitle {
+  max-width: 600px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+  Typing   
+.hero-typing {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: gold;
+}
+
+  Buttons   
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary {
+  background: gold;
+  color: black;
+}
+
+.outline {
+  border: 2px solid gold;
+  color: gold;
+  background: transparent;
+}
+
+  Badge   
+.anniversary-badge {
+  position: absolute;
+  top: calc(65px + 15px);   👈 FIX: navbar height + spacing   
+  right: 20px;
+  background: linear-gradient(45deg, gold, orange);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  z-index: 5;   👈 increase   
+}
+
+  Stats Bar   
+.stats-bar {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  background: rgba(0,0,0,0.7);
+  border: 1px solid gold;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.stat h2 {
+  color: gold;
+  font-size: 30px;
+}
+
+.stat p {
+  font-size: 14px;
+}
+*/
+
+/* ================= WRAPPER ================= */
+.hero-wrapper {
+  position: relative;
+  min-height: 100vh; /* ✅ flexible instead of fixed */
+  overflow: hidden;
+  color: white;
+
+  padding-top: 80px;   /* ✅ space for navbar */
+  padding-bottom: 120px; /* ✅ space for stats bar */
+}
+
+/* ================= VIDEO ================= */
+.hero-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ================= OVERLAY ================= */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+}
+
+/* ================= CONTENT ================= */
+.hero-content {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+
+  margin-top: 40px; /* ✅ prevents top collision */
+}
+
+/* ================= TITLE ================= */
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: gold;
+}
+
+/* ================= ANNIVERSARY ================= */
+.hero-anniversary {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+.hero-anniversary span {
+  color: gold;
+  text-shadow: 0 0 10px gold;
+}
+
+/* ================= SUBTITLE ================= */
+.hero-subtitle {
+  max-width: 700px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* ================= TYPING ================= */
+.hero-typing {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: gold;
+}
+
+/* ================= BUTTONS ================= */
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: gold;
+  color: black;
+}
+
+.outline {
+  border: 2px solid gold;
+  color: gold;
+  background: transparent;
+}
+
+/* ================= BADGE ================= */
+.anniversary-badge {
+  position: absolute;
+  top: calc(65px + 15px); /* navbar offset */
+  right: 20px;
+  background: linear-gradient(45deg, gold, orange);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  z-index: 5;
+}
+
+/* ================= STATS BAR ================= */
+.stats-bar {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+
+  background: rgba(0,0,0,0.8);
+  border: 1px solid gold;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  color: gold;
+  font-size: 1.8rem;
+}
+
+.stat p {
+  font-size: 0.9rem;
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 992px) {
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-anniversary {
+    font-size: 1.3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .hero-wrapper {
+    min-height: auto;  /* ✅ prevents overflow */
+    padding-bottom: 40px;
+  }
+
+  .hero-content {
+    margin-top: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-anniversary {
+    font-size: 1.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero-typing {
+    font-size: 1rem;
+  }
+
+  /* ✅ CRITICAL FIX: no overlap */
+  .stats-bar {
+    position: static;
+    transform: none;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .stat h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 480px) {
+
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-anniversary {
+    font-size: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .hero-typing {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
