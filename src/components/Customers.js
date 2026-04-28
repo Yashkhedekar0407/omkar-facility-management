@@ -14,7 +14,9 @@ const societies = [
   { name: "Samarpan Exotica", location: "Borivali" },
   { name: "Parinee Adney", location: "" },
   { name: "Sethia Sea View", location: "Goregaon" },
-  {name:"Crescent Grande", location:"Andheri"}
+  {name:"Crescent Grande", location:"Andheri"},
+  {name:"Hubtown Shikhar ", location:"Andheri"}
+
 ];
 
 function Customers() {
